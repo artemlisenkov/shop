@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6659f6c-cf53-4d19-b129-eae8a8fda5a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/base_class.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/knife.py" afterDir="false" />
+    <list default="true" id="c6659f6c-cf53-4d19-b129-eae8a8fda5a6" name="Changes" comment="add base classes -&gt; general template created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,11 +63,25 @@
       <workItem from="1716474342075" duration="190000" />
       <workItem from="1716474538678" duration="665000" />
       <workItem from="1716544280974" duration="619000" />
-      <workItem from="1716716502072" duration="1104000" />
+      <workItem from="1716716502072" duration="2625000" />
+      <workItem from="1716736589731" duration="2743000" />
     </task>
+    <task id="LOCAL-00001" summary="add base classes -&gt; general template created">
+      <option name="closed" value="true" />
+      <created>1716718277171</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716718277171</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add base classes -&gt; general template created" />
+    <option name="LAST_COMMIT_MESSAGE" value="add base classes -&gt; general template created" />
   </component>
 </project>
