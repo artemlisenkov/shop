@@ -21,7 +21,7 @@ def choose_utensil():
 
 
 def choose_material(monotonic: bool):
-    materials = ["gold", "silver", "bronze", "wood", "plastic"]
+    materials = ["gold", "silver", "bronze", "steel", "plastic"]
 
     print(', '.join(materials).title())
     choice1 = input("Which material would you like? \n").lower()
@@ -43,7 +43,7 @@ def choose_material(monotonic: bool):
 
 def choose_length() -> float:
     length = float(input("What length in cm (from 5 to 30): \n"))
-    if length <= 5 or length >= 30:
+    if 5 <= length <= 30:
         print("Does our shop look like for aliens?")
         raise ValueError("Length must be greater than 5, less than 30")
     else:
