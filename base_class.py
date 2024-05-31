@@ -2,11 +2,10 @@ from abc import ABC, abstractmethod
 
 
 class Utensil(ABC):
-    def __init__(self, material: str, length: float, color: str, monotonic: bool):
+    def __init__(self, material: str, length: float, monotonic: bool):
         super().__init__()
         self.material = material
         self.length = length
-        self.color = color
         self.monotonic = monotonic
 
     @abstractmethod

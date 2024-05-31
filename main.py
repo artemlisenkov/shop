@@ -9,7 +9,7 @@ def choose_utensil():
                 Fork.__name__, Spoon.__name__]
 
     print(', '.join(utensils))
-    choice = input("Which utensil would you like to order?")
+    choice = input("Which utensil would you like to order? \n")
 
     if choice not in utensils:
         print("Choose existent one.")
@@ -20,8 +20,29 @@ def choose_utensil():
                 return utensil
 
 
-def choose_length():
-    length = int(input("What length in cm (from 5 to 30):"))
+def choose_material(monotonic: bool):
+    materials = ["gold", "silver", "bronze", "wood", "plastic"]
+
+    print(', '.join(materials).title())
+    choice1 = input("Which material would you like? \n").lower()
+
+    if not monotonic:
+        if choice1 not in materials:
+            print("Choose existent one.")
+            raise ValueError()
+        else:
+            return choice1
+    else:
+        choice2 = input("Which second material would you like? \n")
+        if choice1 in materials and choice2 in materials:
+            return [choice1, choice2]
+        else:
+            print("Choose existent one.")
+            raise ValueError()
+
+
+def choose_length() -> float:
+    length = float(input("What length in cm (from 5 to 30): \n"))
     if length <= 5 or length >= 30:
         print("Does our shop look like for aliens?")
         raise ValueError("Length must be greater than 5, less than 30")
@@ -29,8 +50,8 @@ def choose_length():
         return length
 
 
-def is_monotonic(self):
-    yes_no = input("Monotonous? (Y/n)")
+def is_monotonic() -> bool:
+    yes_no = input("Monotonous? (Y/n): \n")
 
     if yes_no.lower() not in ["y", "yes", "ye"]:
         return False
