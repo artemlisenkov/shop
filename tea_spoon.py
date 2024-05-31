@@ -11,5 +11,5 @@ class TeaSpoon(Utensil):
               f"2. Pouring into small spoon mold.\n"
               f"3. Cooling and finishing.\n"
               f"Final: You have ordered a teaspoon with parameters:"
-              f"Material: {self.material}"
-              f"Length: {self.length}")
+              f"Material: {self.material}\n"
+              f"Length: {self.length}\n")

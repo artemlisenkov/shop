@@ -24,4 +24,4 @@ class Fork(Utensil):
               f"Finish: You have ordered a Fork with parameters:"
               f"Material: {self.material}\n"
               f"Length: {self.length}\n"
-              f"Tines: {self.tines}")
+              f"Tines: {self.tines}\n")

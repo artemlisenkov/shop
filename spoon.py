@@ -12,4 +12,4 @@ class Spoon(Utensil):
               f"3. Cooling and finishing.\n"
               f"Final: You have ordered a Spoon with parameters:\n"
               f"Material: {self.material}\n"
-              f"Length: {self.length}")
+              f"Length: {self.length}\n")
