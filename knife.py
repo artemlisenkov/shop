@@ -16,14 +16,14 @@ class Knife(Utensil):
             self.blade()
 
     def produce(self):
-        print("1. Producing a knife:\n"
-              "2. Melting {self.material}.\n")
+        print(f"1. Producing a knife:\n"
+              f"2. Melting {' and '.join(self.material)}.\n")
 
         self.blade()
 
-        print("3. Sharpening the blade.\n"
-              "4. Polishing the surface.\n"
-              "Final: You ordered a Knife with parameters: \n")
+        print(f"3. Sharpening the blade.\n"
+              f"4. Polishing the surface.\n"
+              f"Final: You ordered a Knife with parameters: \n")
 
         if isinstance(self.material, list):
             print(f"Material: {', '.join(self.material)}")

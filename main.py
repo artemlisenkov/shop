@@ -33,7 +33,7 @@ def choose_material(monotonic: bool):
         else:
             return choice1
     else:
-        choice2 = input("Which second material would you like? \n")
+        choice2 = input("Which second material would you like? \n").lower()
         if choice1 in materials and choice2 in materials:
             return [choice1, choice2]
         else:
