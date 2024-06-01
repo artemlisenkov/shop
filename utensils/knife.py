@@ -1,4 +1,4 @@
-from base_class import Utensil
+from utensils.base_class import Utensil
 
 
 class Knife(Utensil):

@@ -1,10 +1,11 @@
 import unittest
 from unittest.mock import patch
 from main import create, choose_utensil, choose_length, choose_material, is_monotonic
-from knife import Knife
-from spoon import Spoon
-from fork import Fork
-from tea_spoon import TeaSpoon
+from utensils.knife import Knife
+from utensils.spoon import Spoon
+from utensils.fork import Fork
+from utensils.tea_spoon import TeaSpoon
+
 
 class TestUtensilFunctions(unittest.TestCase):
 
